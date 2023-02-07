@@ -1,0 +1,95 @@
+.intro {
+    background-color:rgb(92, 9, 67);
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contactinfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #eeeeee;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(92, 9, 67);
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+img{
+    float: right;
+}
+.icon{
+    color: rgba(92, 9, 67);
+    float: left;
+}
+.date{
+    font-size: 16px;
+    color: rgb(92, 9, 67);
+    font-weight: bold;
+}
+.jobtitle{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.schooltitle{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.social{
+    padding-left: 16px;
+}
+.langs ul li{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+} 
+.langs ul li .lang_prog{
+    width: 60%;
+    height: 5px;
+    position: absolute;
+    padding-left: 100px;
+}
+.langs ul li .lang_prog span{
+    position: absolute;
+    height: 100%;   
+    background: rgb(92, 9, 67);
+    display: inline-block;
+}
+.skill_name{
+    width: 4px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+.lang_per{
+    margin-right: 15px;
+} 
+.image{
+    float: right;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.skill_desc{
+    padding-bottom: 4px;
+}
+.langs{
+    padding-top: 4px;
+}
