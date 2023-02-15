@@ -504,3 +504,33 @@ input[type=email], select, textarea {
     background-color: #45a049;
   }
 
+  /**Footer**/
+
+#footer {
+    margin-top: 30px;
+	height: 6em;
+	text-align: center;
+	background-color:#aaaaaa;
+}
+
+#links-container{
+	padding: 6px;
+	margin-bottom: 6px;
+}
+
+#links-container a {
+	color: #575757;
+	transition: .4s;
+    text-decoration: none;
+}
+
+#links-container a:hover {
+	color: #757575;
+}
+
+#copyright {
+	color: #757575;
+	font-size:14px;
+}
+
+
