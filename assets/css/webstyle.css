@@ -401,6 +401,48 @@
 #radio5:checked ~ .auto-nav .auto-btn5{
     background: #40D3DC;
 }
+.int-description {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #F8F8F8;
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: opacity .4s, visibility .4s;
+}
+.slide:hover .int-description {
+	visibility: visible;
+	opacity: 0.9;
+}
+.int-description:hover {
+	opacity: 1;
+}
+.img-description {
+	transition: .5s;
+	color: #575757;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.img-description p{
+	font-family: "Poppins", san-serif;
+	text-decoration: none;
+	font-weight: 100;
+    font-size: 300%;
+	line-height: 40px;
+}
+.img-description:hover {
+	opacity: 1;
+}
+
 
 /* Contact Me */
 #contacts{
