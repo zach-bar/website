@@ -35,22 +35,22 @@ let projects = [
       language: "C++",
     },
    {
-      name:"GitBit",
-      description:"Python library that holds the same functions as that of the git command line, such as add, cat-file, checkout, commit, hash-object, init, log, ls-files, ls-tree, merge, rebase, rev-parse, rm, show-ref, and tag.",
-      image: "./assets/git.png",
+      name:"Advanced Tic-Tac-Toe",
+      description:"A multiplayer tic-tac-toe game that works with multiple players by adding 1 to the grid size for every additional player (i.e. 4 players means 5 columns/rows). Players can choose the value to input into the grid.",
+      image: "./assets/tictactoe.png",
+      language: "Java",
+    },
+   {
+      name:"Inquiry for Counselor",
+      description:"Program that sifts through a file of counselor emails and names that asks a user to input a question to ask a counselor, and to choose the counselor by name. The question will then be sent to the counselor by the email address of the user, or the question will be answered if a response is found within the questions/answers file.",
+      image: "./assets/question.png",
+      language: "C++",
+    },
+   {
+      name:"Photo Encryption",
+      description:"Program encrypts a key into a photo within the same folder as the program file, and prints key out when it is asked for.",
+      image: "./assets/encrypt.png",
       language: "Python",
-    },
-   {
-      name:"Stock Evaluation",
-      description:"Program that outsources stock data to give an accurate percentage increase over a variable of time indicated by the user. User is able to choose from a list of companies with consistent and public stock profiles.",
-      image: "./assets/stocks.png",
-      language: "Javascript",
-    },
-   {
-      name:"Calculator App",
-      description:"Basic calculator app that can implement basic mathematical functions like addition, subtraction, multiplication, division, and exponents, and can process fractions, decimals, long numbers, and calculates to scientific notation.",
-      image: "./assets/calculator.png",
-      language: "Swift",
     },
    {
       name:"My Website",
